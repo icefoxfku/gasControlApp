@@ -150,7 +150,7 @@ test:
     default:
       database: gas_control_app_test
       hosts:
-        - localhost:27017
+        - mongo:27017
       options:
         read:
           mode: :primary
